@@ -10,6 +10,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 
 example()
 
+
 @dp.message_handler(commands=['start', 'help'])
 
 async def welcome(message: types.Message):
